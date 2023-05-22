@@ -105,7 +105,7 @@ Output:
 
 # D) Let's Count Characters!
 
-Given a sentence, find out the highest number of characters in a word that is inside of paretheses in that sentence.
+Given a sentence, find out the highest number of characters in a word that is inside of parenthesis in that sentence.
 
 ## Input
 
@@ -115,7 +115,7 @@ Given a sentence, find out the highest number of characters in a word that is in
 ## Constraint
 
 -   1 ≤ N ≤ 50
--   String s contains, paratheses, lower/upper case letters
+-   String s contains, parenthesis, lower/upper case letters
 -   Each words separated by underscore '\_'
 
 ## Example
@@ -123,12 +123,12 @@ Given a sentence, find out the highest number of characters in a word that is in
 Input:
 
     3
-    Welcome_everyone_(hope_you_guys)_have_(a_lot_of_fun)
-    _where_is_the_answer_()
-    (Can_you_answer_this_question)____in_(one_minutes)_
+    _Jom__makan_(nasi_goreng_ayam)_dekat_(kedai_mamak_)
+    _(i_like_)_durian
+    (Please_answer_this_question)____in_(one_minutes)_ya
 
 Output:
 
+    6
     4
-    0
     8
